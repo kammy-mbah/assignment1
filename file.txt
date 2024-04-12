@@ -1,0 +1,18 @@
+Normal HTML elements are those that are used primarily for formatting and structuring web content but do not convey any specific meaning or context to search engines or assistive technologies. Examples include `<div>`, `<span>`, `<p>`, and `<div>`. These elements are generic and can be styled and manipulated using CSS, but they don't provide any semantic information about the content they contain.
+
+Semantic HTML elements, on the other hand, are designed to add meaning and context to the content they wrap. They convey the purpose or role of the content to both browsers and developers, making the HTML code more readable, understandable, and accessible. Examples include `<header>`, `<nav>`, `<article>`, `<section>`, `<aside>`, `<footer>`, `<main>`, `<figure>`, `<figcaption>`, `<address>`, etc. Semantic elements help search engines better understand the structure and meaning of a web page, potentially improving search engine ranking and accessibility for users with disabilities.
+
+In HTML, there are two types of tags: opening tags and closing tags. Opening tags are used to mark the beginning of an element, while closing tags mark the end. For example:
+
+In this example, `<p>` is the opening tag, and `</p>` is the closing tag. They indicate where the paragraph begins and ends, respectively.
+
+However, some HTML elements are self-closing, meaning they don't require a separate closing tag. Instead, they combine the opening and closing tags into one. These are typically used for elements that do not contain any content or have content that is optional. For example:
+
+
+In the above examples, `<img>`, `<br>`, and `<input>` are self-closing tags. They do not require separate closing tags because they either do not contain content (like `<img>` and `<input>`) or the content is optional (like `<br>`).
+
+Regarding inline and block elements:
+
+1. **Block-level elements**: These elements typically start on a new line and take up the full width available, pushing subsequent elements to a new line. Examples include `<div>`, `<p>`, `<h1>`-`<h6>`, `<ul>`, `<ol>`, `<li>`, `<table>`, `<form>`, etc. They can contain other block-level and inline elements.
+
+2. **Inline elements**: These elements do not start on a new line and only take up as much width as necessary. They allow other elements to sit beside them on the same line. Examples include `<span>`, `<a>`, `<strong>`, `<em>`, `<img>`, `<input>`, `<br>`, `<i>`, `<b>`, `<u>`, etc. They cannot contain block-level elements but can contain other inline elements.
